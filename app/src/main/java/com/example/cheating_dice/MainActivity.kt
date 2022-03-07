@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        var btn2:Button = binding.btn1
+        var btn2:Button = binding.btn2
         btn2.setOnClickListener {
             val intent = Intent(this, na1::class.java)
             startActivity(intent)
